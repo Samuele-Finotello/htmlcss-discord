@@ -24,7 +24,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
 /* FLEX */
@@ -116,10 +116,6 @@ h3 {
 /* BACKGROUND COLORS */
 .bg-lgray {
   background-color: rgb(245, 245, 245);
-}
-
-.bg-green {
-  background-color: rgb(33, 139, 33);
 }
 
 .bg-dpink {
@@ -282,4 +278,20 @@ section button.mac:hover {
 
 section button.browser:hover {
   background-color: rgb(57, 59, 60);
+}
+
+/* SECTION TABLET */
+.mac2 {
+  background-color: rgb(142, 161, 226);
+  color: white;
+  padding: 15px 50px;
+  margin-top: 20px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+section button.mac2:hover {
+  background-color: rgb(172, 183, 217);
+  color: rgb(255, 238, 238);
 }
