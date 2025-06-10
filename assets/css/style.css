@@ -301,3 +301,13 @@ h3.informazioni {
   color: rgb(104, 124, 183);
   font-size: 2.4rem;
 }
+
+section div div img.italy {
+  height: 20px;
+  width: 30px;
+  margin-top: 20px;
+}
+
+.lingua {
+  color: white;
+}
