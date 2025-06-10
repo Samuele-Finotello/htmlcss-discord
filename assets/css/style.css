@@ -110,10 +110,6 @@ ul {
 }
 
 /* BORDER */
-.border {
-  border: 2px dashed black;
-}
-
 .border-w {
   border-top: 1px solid white;
 }
@@ -125,10 +121,6 @@ ul {
 
 .bg-dgray {
   background-color: rgb(35, 39, 42);
-}
-
-.bg-aqua {
-  background-color: aquamarine;
 }
 
 /* COLOR */
