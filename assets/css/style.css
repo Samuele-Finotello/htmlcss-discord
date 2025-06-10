@@ -97,10 +97,6 @@ footer {
 }
 
 /* BACKGROUND COLORS */
-.bg-pink {
-  background-color: rgb(239, 130, 237);
-}
-
 .bg-lblue {
   background-color: rgb(30, 144, 255);
 }
@@ -224,7 +220,7 @@ div.jumbo {
 
 div div h1 {
   color: white;
-  padding-top: 50px;
+  padding-top: 90px;
   padding-bottom: 40px;
   font-size: 60px;
 }
@@ -232,15 +228,37 @@ div div h1 {
 div div p {
   color: white;
   text-align: center;
-  line-height: 1.8rem;
+  line-height: 2.5rem;
 }
 
 /* SECTION BUTTONS */
 section button {
-  margin-top: 15px;
+  margin-top: 20px;
 }
 
 section button.mac {
   background-color: white;
-  padding: 15px 10px;
+  padding: 15px 50px;
+  margin-right: 10px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+section button.browser {
+  color: white;
+  background-color: rgb(36, 40, 43);
+  padding: 15px 70px;
+  margin-left: 10px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+section button.mac:hover {
+  background-color: rgb(227, 241, 251);
+}
+
+section button.browser:hover {
+  background-color: rgb(57, 59, 60);
 }
