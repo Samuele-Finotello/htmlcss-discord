@@ -57,6 +57,11 @@ h2 {
   align-items: center;
 }
 
+/* TEXT ALIGN */
+.text-center {
+  text-align: center;
+}
+
 /* CONTAINER */
 .container {
   width: 1200px;
