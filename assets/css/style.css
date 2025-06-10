@@ -27,6 +27,11 @@ h3 {
   font-size: 1.8rem;
 }
 
+ul {
+  color: white;
+  list-style: none;
+}
+
 /* FLEX */
 .flex {
   display: flex;
@@ -118,20 +123,17 @@ h3 {
   background-color: rgb(245, 245, 245);
 }
 
-.bg-dpink {
-  background-color: rgb(240, 129, 128);
-}
-
-.bg-bluegreen {
-  background-color: rgb(32, 179, 170);
-}
-
 .bg-dgray {
   background-color: rgb(35, 39, 42);
 }
 
 .bg-aqua {
   background-color: aquamarine;
+}
+
+/* COLOR */
+.text-blue {
+  color: rgb(104, 124, 183);
 }
 
 /* PADDING */
