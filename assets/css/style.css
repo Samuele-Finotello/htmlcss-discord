@@ -19,6 +19,10 @@ footer {
   display: flex;
 }
 
+h2 {
+  font-size: 3rem;
+}
+
 /* FLEX */
 .flex {
   display: flex;
@@ -97,14 +101,6 @@ footer {
 }
 
 /* BACKGROUND COLORS */
-.bg-lblue {
-  background-color: rgb(30, 144, 255);
-}
-
-.bg-lpink {
-  background-color: rgb(255, 192, 202);
-}
-
 .bg-gray {
   background-color: rgb(211, 211, 211);
 }
@@ -156,17 +152,30 @@ footer {
   margin-top: 2px;
 }
 
+.mgtop-40 {
+  margin-top: 40px;
+}
+
+.mgtop-20 {
+  margin-top: 20px;
+}
+
 /* ALTEZZE */
 .h-400 {
   height: 400px;
 }
 
-.h-500 {
-  height: 500px;
+.h-600 {
+  height: 600px;
 }
 
 .h-900 {
   height: 900px;
+}
+
+/* LINE HEIGHT */
+.line-2_5 {
+  line-height: 2.5rem;
 }
 
 /* FONT-SIZE */
@@ -225,10 +234,9 @@ div div h1 {
   font-size: 60px;
 }
 
-div div p {
+.intestazione {
   color: white;
   text-align: center;
-  line-height: 2.5rem;
 }
 
 /* SECTION BUTTONS */
