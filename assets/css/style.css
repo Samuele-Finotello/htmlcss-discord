@@ -19,9 +19,34 @@ footer {
   display: flex;
 }
 
-/* DISPLAY FLEX */
+/* FLEX */
 .flex {
   display: flex;
+}
+
+.justify-center {
+  display: flex;
+  justify-content: center;
+}
+
+.justify-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.justify-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.justify-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
 }
 
 /* CONTAINER */
@@ -69,22 +94,6 @@ footer {
 
 .border-w {
   border: 2px dashed white;
-}
-
-/* JUSTIFY-CONTENT */
-.justify-center {
-  display: flex;
-  justify-content: center;
-}
-
-.justify-end {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.justify-between {
-  display: flex;
-  justify-content: space-between;
 }
 
 /* BACKGROUND COLORS */
@@ -164,10 +173,16 @@ footer {
   height: 900px;
 }
 
+/* FONT-SIZE */
+.size-20 {
+  font-size: 20px;
+}
+
 /* HEADER */
 a {
   text-decoration: none;
   color: white;
+  font-size: 20px;
 }
 
 header div span {
@@ -192,8 +207,8 @@ header div button:hover {
   background-color: rgb(208, 236, 255);
 }
 
-/* SECTION CONTAINER SMALL */
-section.jumbo {
+/* DIV CONTAINER SMALL */
+div.jumbo {
   height: 615px;
 }
 
@@ -205,4 +220,27 @@ section.jumbo {
 .bg-menu {
   background-color: rgb(37, 94, 233);
   padding: 5px 0;
+}
+
+div div h1 {
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  font-size: 60px;
+}
+
+div div p {
+  color: white;
+  text-align: center;
+  line-height: 1.8rem;
+}
+
+/* SECTION BUTTONS */
+section button {
+  margin-top: 15px;
+}
+
+section button.mac {
+  background-color: white;
+  padding: 15px 10px;
 }
