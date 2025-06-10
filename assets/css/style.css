@@ -14,7 +14,7 @@ header {
 }
 
 footer {
-  height: 75px;
+  height: 100px;
   padding-top: 20px;
   display: flex;
 }
@@ -115,7 +115,7 @@ ul {
 }
 
 .border-w {
-  border: 2px dashed white;
+  border-top: 1px solid white;
 }
 
 /* BACKGROUND COLORS */
@@ -159,10 +159,6 @@ ul {
 }
 
 /* MARGIN */
-.mgtop-2 {
-  margin-top: 2px;
-}
-
 .mgtop-40 {
   margin-top: 40px;
 }
@@ -312,4 +308,19 @@ section div div img.italy {
 
 .lingua {
   color: white;
+}
+
+/* FOOTER */
+.registrati {
+  background-color: rgb(142, 161, 226);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+button.registrati:hover {
+  background-color: rgb(172, 183, 217);
+  color: rgb(255, 238, 238);
 }
