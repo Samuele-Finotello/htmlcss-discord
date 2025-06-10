@@ -53,6 +53,10 @@ h2 {
   flex-direction: column;
 }
 
+.align-center {
+  align-items: center;
+}
+
 /* CONTAINER */
 .container {
   width: 1200px;
@@ -165,8 +169,8 @@ h2 {
   height: 400px;
 }
 
-.h-600 {
-  height: 600px;
+.h-700 {
+  height: 700px;
 }
 
 .h-900 {
