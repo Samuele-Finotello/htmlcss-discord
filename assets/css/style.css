@@ -302,6 +302,16 @@ section div div img.italy {
   color: white;
 }
 
+.icons {
+  display: block;
+}
+
+.fab,
+.fa-brands {
+  margin: 0 10px;
+  font-size: 20px;
+}
+
 /* FOOTER */
 .registrati {
   background-color: rgb(142, 161, 226);
